@@ -310,227 +310,236 @@
 
 
 
-*************** AN-4.txt Stats ***************
+#### AN-4.txt Stats
 
-total words (with repeats) length: 			6066
-total vocab (no repeats - including punctuation):	55
-lexical richness (i.e. total/vocab):	110.290909091
-top 50 words (without stemming/ lemmatizing):
-[',', 'the', 'i', 'and', 'to', 'my', 'of', 'a', "''", 'me', 'you', 'he', 'we', 'but', 'had', 'not', 'that', 'with', 'his', 'in', 'was', 'him', '``', 'two', 'at', 'for', 'her', 'it', 'she', 'they', 'all', 'so', 'thousand', 'as', 'came', 'did', 'do', 'have', 'on', 'this', 'up', 'when', 'brother', 'dogs', 'genius', 'merchant', 'one', 'set', 'then', 'third'] 
+- total words (with repeats) length: 			
+	- 6066
+- total vocab (no repeats - including punctuation):	
+	- 55
+- lexical richness (i.e. total/vocab):	
+	- 110.290909091
+- top 50 words (without stemming/ lemmatizing):
+	- [',', 'the', 'i', 'and', 'to', 'my', 'of', 'a', "''", 'me', 'you', 'he', 'we', 'but', 'had', 'not', 'that', 'with', 'his', 'in', 'was', 'him', '``', 'two', 'at', 'for', 'her', 'it', 'she', 'they', 'all', 'so', 'thousand', 'as', 'came', 'did', 'do', 'have', 'on', 'this', 'up', 'when', 'brother', 'dogs', 'genius', 'merchant', 'one', 'set', 'then', 'third'] 
 
-words (showing only 10) that occur once (hapaxes):
-['!', "'", '.', ':', 'about', 'accepted', 'accounts', 'added', 'afterwards', 'afterwards.', 'against', 'also', 'an', 'angry', 'answered', 'appeased', 'arrived', 'asked', 'attention', 'away', 'back', 'bath', 'became', 'befallen', 'before.', 'beggar', 'board.', 'both', 'brought', 'buried', 'buried.', 'business', 'buy', 'capital', 'caravan', 'care', 'children', 'closely', 'come', 'company.', 'compare', 'condemned', 'congratulations', 'consented.', 'corner', 'countries', 'country', 'dawned', 'days', 'died'] 
+- words (showing only 10) that occur once (hapaxes):
+	- ['!', "'", '.', ':', 'about', 'accepted', 'accounts', 'added', 'afterwards', 'afterwards.', 'against', 'also', 'an', 'angry', 'answered', 'appeased', 'arrived', 'asked', 'attention', 'away', 'back', 'bath', 'became', 'befallen', 'before.', 'beggar', 'board.', 'both', 'brought', 'buried', 'buried.', 'business', 'buy', 'capital', 'caravan', 'care', 'children', 'closely', 'come', 'company.', 'compare', 'condemned', 'congratulations', 'consented.', 'corner', 'countries', 'country', 'dawned', 'days', 'died'] 
 
-~~~~~ after removing stopwords ~~~~~~
-content words (without stopwords but repeat): 	613
-content percentage: 	0.1
-~~~~~ after stemming ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
+###### after removing stopwords ~~~~~~
+	content words (without stopwords but repeat): 	613
+	content percentage: 	0.1
+	~~~~~ after stemming ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
 
-word Synonyms for: 		power 	[Synset('power.n.01'), Synset('power.n.02'), Synset('ability.n.02'), Synset('office.n.04'), Synset('power.n.05'), Synset('exponent.n.03'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('power.v.01')] 
+	word Synonyms for: 		power 	[Synset('power.n.01'), Synset('power.n.02'), Synset('ability.n.02'), Synset('office.n.04'), Synset('power.n.05'), Synset('exponent.n.03'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('power.v.01')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
 
-~~~~~~~~~~~
-word count for: 		faith 	: 0
-word percentage for: 		faith 	: 0.0 
+	~~~~~~~~~~~
+	word count for: 		faith 	: 0
+	word percentage for: 		faith 	: 0.0 
 
-word Synonyms for: 		faith 	[Synset('religion.n.01'), Synset('faith.n.02'), Synset('religion.n.02'), Synset('faith.n.04')] 
+	word Synonyms for: 		faith 	[Synset('religion.n.01'), Synset('faith.n.02'), Synset('religion.n.02'), Synset('faith.n.04')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		faith 	: 0
-word percentage for: 		faith 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		faith 	: 0
+	word percentage for: 		faith 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		faith 	: 0
-word percentage for: 		faith 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		faith 	: 0
+	word percentage for: 		faith 	: 0.0 
 
-~~~~~~~~~~~
-word count for: 		poor 	: 1
-word percentage for: 		poor 	: 0.02 
+	~~~~~~~~~~~
+	word count for: 		poor 	: 1
+	word percentage for: 		poor 	: 0.02 
 
-word Synonyms for: 		poor 	[Synset('poor_people.n.01'), Synset('hapless.s.01'), Synset('poor.a.02'), Synset('poor.a.03'), Synset('poor.a.04'), Synset('inadequate.s.02'), Synset('poor.s.06')] 
+	word Synonyms for: 		poor 	[Synset('poor_people.n.01'), Synset('hapless.s.01'), Synset('poor.a.02'), Synset('poor.a.03'), Synset('poor.a.04'), Synset('inadequate.s.02'), Synset('poor.s.06')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		poor 	: 0
-word percentage for: 		poor 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		poor 	: 0
+	word percentage for: 		poor 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		poor 	: 0
-word percentage for: 		poor 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		poor 	: 0
+	word percentage for: 		poor 	: 0.0 
 
-~~~~~~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
+	~~~~~~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
 
-word Synonyms for: 		loyal 	[Synset('loyal.a.01'), Synset('patriotic.a.01'), Synset('firm.s.10')] 
+	word Synonyms for: 		loyal 	[Synset('loyal.a.01'), Synset('patriotic.a.01'), Synset('firm.s.10')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
 
-~~~~~~~~~~~
+	~~~~~~~~~~~
+	---
+
+
+
+## AN-5.txt Stats ***************
+
+- total words (with repeats) length: 			
+	- 6440
+- total vocab (no repeats - including punctuation):	
+	- 54
+- lexical richness (i.e. total/vocab):	
+	- 119.259259259
+- top 50 words (without stemming/ lemmatizing):
+	- [',', 'the', 'he', "''", 'i', 'and', 'to', 'a', 'you', 'of', 'in', 'that', '``', 'but', 'it', 'me', 'fisherman', 'was', 'his', 'will', 'genius', ';', 'not', 'which', 'as', 'at', 'had', 'him', 'if', 'out', 'said', 'so', 'with', 'would', '?', 'have', 'nets', 'vase', 'choose', 'could', 'my', 'then', 'what', '!', 'came', 'fish', 'great', 'no', 'on', 'only'] 
+
+- words (showing only 10) that occur once (hapaxes):
+	- ['.', 'afraid', 'afterwards', 'alas', 'allow', 'almost', 'already', 'always', 'angry', 'annoyed.', 'answering', 'any', 'appeared', 'ask', 'asked', 'astonishment.', 'attentively', 'bad', 'bank', 'basket', 'became', 'because', 'being', 'better', 'body', 'broken', 'build', 'buy', 'came.', 'captive', 'captivity', 'cast', 'caught', 'caused', 'certain', 'change', 'children.', 'civilly', 'clean', 'clouds', 'collecting', 'come', 'coming', 'conjure', 'contain', 'copper', 'courage.', 'cunning.', 'deal', 'delighted.'] 
+
+##### after removing stopwords ~~~~~~
+	content words (without stopwords but repeat): 	707
+	content percentage: 	0.11
+	~~~~~ after stemming ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
+
+	word Synonyms for: 		power 	[Synset('power.n.01'), Synset('power.n.02'), Synset('ability.n.02'), Synset('office.n.04'), Synset('power.n.05'), Synset('exponent.n.03'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('power.v.01')] 
+
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
+
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
+
+	~~~~~~~~~~~
+	word count for: 		faith 	: 0
+	word percentage for: 		faith 	: 0.0 
+
+	word Synonyms for: 		faith 	[Synset('religion.n.01'), Synset('faith.n.02'), Synset('religion.n.02'), Synset('faith.n.04')] 
+
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		faith 	: 0
+	word percentage for: 		faith 	: 0.0 
+
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		faith 	: 0
+	word percentage for: 		faith 	: 0.0 
+
+	~~~~~~~~~~~
+	word count for: 		poor 	: 2
+	word percentage for: 		poor 	: 0.03 
+
+	word Synonyms for: 		poor 	[Synset('poor_people.n.01'), Synset('hapless.s.01'), Synset('poor.a.02'), Synset('poor.a.03'), Synset('poor.a.04'), Synset('inadequate.s.02'), Synset('poor.s.06')] 
+
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		poor 	: 2
+	word percentage for: 		poor 	: 0.28 
+
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		poor 	: 2
+	word percentage for: 		poor 	: 0.28 
+
+	~~~~~~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
+
+	word Synonyms for: 		loyal 	[Synset('loyal.a.01'), Synset('patriotic.a.01'), Synset('firm.s.10')] 
+
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
+
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
+
+	~~~~~~~~~~~
 ---
 
 
 
-*************** AN-5.txt Stats ***************
+## AN-6.txt Stats ***************
 
-total words (with repeats) length: 			6440
-total vocab (no repeats - including punctuation):	54
-lexical richness (i.e. total/vocab):	119.259259259
-top 50 words (without stemming/ lemmatizing):
-[',', 'the', 'he', "''", 'i', 'and', 'to', 'a', 'you', 'of', 'in', 'that', '``', 'but', 'it', 'me', 'fisherman', 'was', 'his', 'will', 'genius', ';', 'not', 'which', 'as', 'at', 'had', 'him', 'if', 'out', 'said', 'so', 'with', 'would', '?', 'have', 'nets', 'vase', 'choose', 'could', 'my', 'then', 'what', '!', 'came', 'fish', 'great', 'no', 'on', 'only'] 
+- total words (with repeats) length: 			
+	- 3690
+- total vocab (no repeats - including punctuation):	
+	- 53
+- lexical richness (i.e. total/vocab):	
+	- 69.6226415094
+- top 50 words (without stemming/ lemmatizing):
+	- [',', 'the', 'to', 'he', 'and', "''", 'a', 'him', 'king', 'his', 'that', 'of', 'you', 'in', 'physician', 'this', '``', 'i', 'is', 'had', 'it', 'said', 'with', 'your', 'was', 'when', 'cure', 'not', 'went', 'what', 'all', 'do', 'if', 'king.', 'made', 'sire', 'told', 'very', 'vizir', 'will', 'ball', 'been', 'by', 'club', 'day', 'greek', 'him.', 'most', 'were', 'who'] 
 
-words (showing only 10) that occur once (hapaxes):
-['.', 'afraid', 'afterwards', 'alas', 'allow', 'almost', 'already', 'always', 'angry', 'annoyed.', 'answering', 'any', 'appeared', 'ask', 'asked', 'astonishment.', 'attentively', 'bad', 'bank', 'basket', 'became', 'because', 'being', 'better', 'body', 'broken', 'build', 'buy', 'came.', 'captive', 'captivity', 'cast', 'caught', 'caused', 'certain', 'change', 'children.', 'civilly', 'clean', 'clouds', 'collecting', 'come', 'coming', 'conjure', 'contain', 'copper', 'courage.', 'cunning.', 'deal', 'delighted.'] 
+- words (showing only 10) that occur once (hapaxes):
+	- ['.', ';', 'able', 'accordingly', 'after', 'am', 'answered', 'any', 'application.', 'approached', 'arose', 'assassinate', 'astonishment', 'at', 'audience-chamber', 'avaricious', 'awake', 'bad', 'bat', 'bath', 'bathe', 'before', 'beg', 'believe', 'best', 'body', 'body.', 'bowed', 'bring', 'called', 'came', 'can', 'cease', 'come', 'communication', 'completely', 'condescension', 'confide', 'continued', 'country', 'court.', 'curiosity', 'dangerous', 'deal', 'death.', 'descendants', 'determined', 'doctors', 'drug', 'eager'] 
 
-~~~~~ after removing stopwords ~~~~~~
-content words (without stopwords but repeat): 	707
-content percentage: 	0.11
-~~~~~ after stemming ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
+#### after removing stopwords ~~~~~~
+	content words (without stopwords but repeat): 	388
+	content percentage: 	0.11
+	~~~~~ after stemming ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
 
-word Synonyms for: 		power 	[Synset('power.n.01'), Synset('power.n.02'), Synset('ability.n.02'), Synset('office.n.04'), Synset('power.n.05'), Synset('exponent.n.03'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('power.v.01')] 
+	word Synonyms for: 		power 	[Synset('power.n.01'), Synset('power.n.02'), Synset('ability.n.02'), Synset('office.n.04'), Synset('power.n.05'), Synset('exponent.n.03'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('power.v.01')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		power 	: 0
+	word percentage for: 		power 	: 0.0 
 
-~~~~~~~~~~~
-word count for: 		faith 	: 0
-word percentage for: 		faith 	: 0.0 
+	~~~~~~~~~~~
+	word count for: 		faith 	: 2
+	word percentage for: 		faith 	: 0.05 
 
-word Synonyms for: 		faith 	[Synset('religion.n.01'), Synset('faith.n.02'), Synset('religion.n.02'), Synset('faith.n.04')] 
+	word Synonyms for: 		faith 	[Synset('religion.n.01'), Synset('faith.n.02'), Synset('religion.n.02'), Synset('faith.n.04')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		faith 	: 0
-word percentage for: 		faith 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		faith 	: 2
+	word percentage for: 		faith 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		faith 	: 0
-word percentage for: 		faith 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		faith 	: 2
+	word percentage for: 		faith 	: 0.52 
 
-~~~~~~~~~~~
-word count for: 		poor 	: 2
-word percentage for: 		poor 	: 0.03 
+	~~~~~~~~~~~
+	word count for: 		poor 	: 0
+	word percentage for: 		poor 	: 0.0 
 
-word Synonyms for: 		poor 	[Synset('poor_people.n.01'), Synset('hapless.s.01'), Synset('poor.a.02'), Synset('poor.a.03'), Synset('poor.a.04'), Synset('inadequate.s.02'), Synset('poor.s.06')] 
+	word Synonyms for: 		poor 	[Synset('poor_people.n.01'), Synset('hapless.s.01'), Synset('poor.a.02'), Synset('poor.a.03'), Synset('poor.a.04'), Synset('inadequate.s.02'), Synset('poor.s.06')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		poor 	: 2
-word percentage for: 		poor 	: 0.28 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		poor 	: 0
+	word percentage for: 		poor 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		poor 	: 2
-word percentage for: 		poor 	: 0.28 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		poor 	: 0
+	word percentage for: 		poor 	: 0.0 
 
-~~~~~~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
+	~~~~~~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
 
-word Synonyms for: 		loyal 	[Synset('loyal.a.01'), Synset('patriotic.a.01'), Synset('firm.s.10')] 
+	word Synonyms for: 		loyal 	[Synset('loyal.a.01'), Synset('patriotic.a.01'), Synset('firm.s.10')] 
 
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
+	~~~~~ after removing stopwords ~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
 
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
+	~~~~~ after Porter stemming ~~~~~~
+	word count for: 		loyal 	: 0
+	word percentage for: 		loyal 	: 0.0 
 
-~~~~~~~~~~~
----
-
-
-
-*************** AN-6.txt Stats ***************
-
-total words (with repeats) length: 			3690
-total vocab (no repeats - including punctuation):	53
-lexical richness (i.e. total/vocab):	69.6226415094
-top 50 words (without stemming/ lemmatizing):
-[',', 'the', 'to', 'he', 'and', "''", 'a', 'him', 'king', 'his', 'that', 'of', 'you', 'in', 'physician', 'this', '``', 'i', 'is', 'had', 'it', 'said', 'with', 'your', 'was', 'when', 'cure', 'not', 'went', 'what', 'all', 'do', 'if', 'king.', 'made', 'sire', 'told', 'very', 'vizir', 'will', 'ball', 'been', 'by', 'club', 'day', 'greek', 'him.', 'most', 'were', 'who'] 
-
-words (showing only 10) that occur once (hapaxes):
-['.', ';', 'able', 'accordingly', 'after', 'am', 'answered', 'any', 'application.', 'approached', 'arose', 'assassinate', 'astonishment', 'at', 'audience-chamber', 'avaricious', 'awake', 'bad', 'bat', 'bath', 'bathe', 'before', 'beg', 'believe', 'best', 'body', 'body.', 'bowed', 'bring', 'called', 'came', 'can', 'cease', 'come', 'communication', 'completely', 'condescension', 'confide', 'continued', 'country', 'court.', 'curiosity', 'dangerous', 'deal', 'death.', 'descendants', 'determined', 'doctors', 'drug', 'eager'] 
-
-~~~~~ after removing stopwords ~~~~~~
-content words (without stopwords but repeat): 	388
-content percentage: 	0.11
-~~~~~ after stemming ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
-
-word Synonyms for: 		power 	[Synset('power.n.01'), Synset('power.n.02'), Synset('ability.n.02'), Synset('office.n.04'), Synset('power.n.05'), Synset('exponent.n.03'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('power.v.01')] 
-
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
-
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		power 	: 0
-word percentage for: 		power 	: 0.0 
-
-~~~~~~~~~~~
-word count for: 		faith 	: 2
-word percentage for: 		faith 	: 0.05 
-
-word Synonyms for: 		faith 	[Synset('religion.n.01'), Synset('faith.n.02'), Synset('religion.n.02'), Synset('faith.n.04')] 
-
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		faith 	: 2
-word percentage for: 		faith 	: 0.0 
-
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		faith 	: 2
-word percentage for: 		faith 	: 0.52 
-
-~~~~~~~~~~~
-word count for: 		poor 	: 0
-word percentage for: 		poor 	: 0.0 
-
-word Synonyms for: 		poor 	[Synset('poor_people.n.01'), Synset('hapless.s.01'), Synset('poor.a.02'), Synset('poor.a.03'), Synset('poor.a.04'), Synset('inadequate.s.02'), Synset('poor.s.06')] 
-
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		poor 	: 0
-word percentage for: 		poor 	: 0.0 
-
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		poor 	: 0
-word percentage for: 		poor 	: 0.0 
-
-~~~~~~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
-
-word Synonyms for: 		loyal 	[Synset('loyal.a.01'), Synset('patriotic.a.01'), Synset('firm.s.10')] 
-
-~~~~~ after removing stopwords ~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
-
-~~~~~ after Porter stemming ~~~~~~
-word count for: 		loyal 	: 0
-word percentage for: 		loyal 	: 0.0 
-
-~~~~~~~~~~~
+	~~~~~~~~~~~
 ---
 
 

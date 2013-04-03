@@ -22,9 +22,10 @@ def percent(count, total):
 
 def basicTextQuants(text):
 	totLength = len(text)
-	vocab = len(sorted(set(text)))
-	lexicalRich = float(totLength)/ float(vocab)
 	tokens = nltk.word_tokenize(text)
+	vocab = len(sorted(set(tokens)))
+	lexicalRich = float(totLength)/ float(vocab)
+	
 	words = []
 	for t in tokens:
 		words.append(t.lower())
@@ -32,6 +33,8 @@ def basicTextQuants(text):
 	fDist = nltk.probability.FreqDist(words)
 	topWords = fDist.keys()
 	uniqueWords = fDist.hapaxes()
+
+	# fDist.plot()
 
 	print "total words (with repeats) length: \t\t\t", totLength
 	print "total vocab (no repeats - including punctuation):\t", vocab
@@ -68,12 +71,16 @@ def basicTextQuants(text):
 
 		wordSynonyms[eachWord] = wn.synsets(eachWord)
 
+		# context = text.concordance(eachWord)
+
 		# wordHyponyms[eachWord] = eachWord.hyponym
 		
 		print "word count for: \t\t", eachWord, "\t:", text.count(eachWord) 
 		print "word percentage for: \t\t", eachWord, "\t:", wordPercent, "\n"
 
 		print "word Synonyms for: \t\t", eachWord, "\t", wordSynonyms[eachWord], "\n"
+
+		# print "word context for: \t\t", eachWord, "\n", context
 		# print "word Hyponyms for: \t\t", eachWord, "\t", wordHyponyms[eachWord], "\n"
 		
 		print "~~~~~ after removing stopwords ~~~~~~"
