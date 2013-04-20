@@ -7,8 +7,9 @@ import re, pprint, os, numpy
 
 path = '/Users/Shreyas/Documents/_Berkeley/sem2/i290DigitalHumanities/Project/ThemeDetection/corpus/'
 
-ANfiles = ['AN-raw.txt', 'AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt', 'AN-5.txt', 'AN-6.txt', 'AN-7.txt', 'AN-8.txt', 'AN-9.txt', 'AN-10.txt', 'AN-11.txt', 'AN-12.txt', 'AN-13.txt', 'AN-14.txt', 'AN-15.txt', 'AN-16.txt', 'AN-17.txt', 'AN-18.txt', 'AN-19.txt', 'AN-20.txt', 'AN-21.txt', 'AN-22.txt', 'AN-23.txt', 'AN-24.txt', 'AN-25.txt', 'AN-26.txt', 'AN-27.txt']
-#ANfiles = ['AN-1.txt', 'AN-2.txt', ]
+# ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt', 'AN-5.txt', 'AN-6.txt', 'AN-7.txt', 'AN-8.txt', 'AN-9.txt', 'AN-10.txt', 'AN-11.txt', 'AN-12.txt', 'AN-13.txt', 'AN-14.txt', 'AN-15.txt', 'AN-16.txt', 'AN-17.txt', 'AN-18.txt', 'AN-19.txt', 'AN-20.txt', 'AN-21.txt', 'AN-22.txt', 'AN-23.txt', 'AN-24.txt', 'AN-25.txt', 'AN-26.txt', 'AN-27.txt']
+# ANfiles = ['TAON-1.txt', 'TAON-2.txt', 'TAON-3.txt', 'TAON-4.txt']
+ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt']
 
 stopW = nltk.corpus.stopwords.words('english')
 
@@ -61,10 +62,39 @@ def tfidf(document):
 
 ## and here we actually call the function and create our array of vectors.
 
-vectors = [numpy.array(tfidf(f)) for f in texts]
+
+## creating vectors based on count
+def BOW(document):
+	word_counts = []
+	for word in unique_terms:
+		word_counts.append(document.count(word))
+	return word_counts
+
+# vectors by tf idf
+# vectors = [numpy.array(tfidf(f)) for f in texts] 
+
+#vectors by word count
+vectors = [numpy.array(BOW(f)) for f in texts]
 
 print "Vectors created"
 
 print "First 50 words are", unique_terms[:20]
-print "First 10 stats for the first document are:", vectors[0][0:20]
-print "First 10 stats for the second document are:", vectors[1][0:20]
+# print "First 10 stats for the first document are:", vectors[0][0:20]
+# print "First 10 stats for the second document are:", vectors[1][0:20]
+
+## clustering : Group Average Agglomerative
+# clusterer = nltk.cluster.GAAClusterer(num_clusters=3)
+# clusters = clusterer.cluster(vectors, True)
+
+## k-means clustering
+clusterer = nltk.cluster.KMeansClusterer(2, nltk.cluster.euclidean_distance)
+print "starting clustering"
+clusters = clusterer.cluster(vectors, assign_clusters=True, trace=False)
+
+print "clusterer: ", clusterer
+print "clustered: ", vectors
+print "As: ", clusters
+print "Means: ", clusterer.means()
+
+# show the dendrogram
+# clusterer.dendrogram().show()
