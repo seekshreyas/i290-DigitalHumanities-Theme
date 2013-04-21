@@ -75,26 +75,31 @@ def BOW(document):
 
 #vectors by word count
 vectors = [numpy.array(BOW(f)) for f in texts]
+U,s,V = numpy.linalg.svd(vectors) # svd decomposition of A
 
-print "Vectors created"
+print "Vectors created", len(vectors[0]), "after SVD decomposition", len(U)
 
-print "First 50 words are", unique_terms[:20]
-# print "First 10 stats for the first document are:", vectors[0][0:20]
+# print "First 50 words are", unique_terms[:20]
+for fileindex in U:
+	print "First 10 stats for this document are:", fileindex[0:10]
+
+
 # print "First 10 stats for the second document are:", vectors[1][0:20]
+print "starting clustering"
+
 
 ## clustering : Group Average Agglomerative
-# clusterer = nltk.cluster.GAAClusterer(num_clusters=3)
-# clusters = clusterer.cluster(vectors, True)
+clusterer = nltk.cluster.GAAClusterer(num_clusters=3)
+clusters = clusterer.cluster(vectors, True)
 
 ## k-means clustering
-clusterer = nltk.cluster.KMeansClusterer(2, nltk.cluster.euclidean_distance)
-print "starting clustering"
-clusters = clusterer.cluster(vectors, assign_clusters=True, trace=False)
+# clusterer = nltk.cluster.KMeansClusterer(2, nltk.cluster.euclidean_distance)
+# clusters = clusterer.cluster(U, assign_clusters=True, trace=False)
 
 print "clusterer: ", clusterer
 print "clustered: ", vectors
 print "As: ", clusters
-print "Means: ", clusterer.means()
+# print "Means: ", clusterer.means()
 
 # show the dendrogram
-# clusterer.dendrogram().show()
+clusterer.dendrogram().show()
