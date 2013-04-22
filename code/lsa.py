@@ -3,6 +3,7 @@ from __future__ import division
 import nltk
 import random
 import re, pprint, os, numpy
+from pattern.vector import Document, Corpus
 
 
 path = '/Users/Shreyas/Documents/_Berkeley/sem2/i290DigitalHumanities/Project/ThemeDetection/corpus/'
@@ -15,6 +16,7 @@ stopW = nltk.corpus.stopwords.words('english')
 
 
 texts = []
+documents = []
 
 listing = os.listdir(path)
 
@@ -24,9 +26,10 @@ for infile in ANfiles:
 	# url = path + "AN-raw.txt"
 	f = open(url)
 	raw = f.read()
-
 	f.close()
 
+	doc = Document(raw)
+	documents.append(doc)
 	tokens = nltk.word_tokenize(raw)
 	text = nltk.Text(tokens)
 	texts.append(text)
@@ -34,6 +37,7 @@ for infile in ANfiles:
 # print texts[:10]
 print "prepared ", len(texts), "documents ..."
 print "The can be accessed using texts[0] - texts[" + str(len(texts) -1) + "]"
+
 
 
 
@@ -62,6 +66,8 @@ def tfidf(document):
 
 ## and here we actually call the function and create our array of vectors.
 
+## length of documents
+print len(documents)
 
 ## creating vectors based on count
 def BOW(document):
@@ -104,3 +110,15 @@ print "As: ", clusters
 
 # show the dendrogram
 clusterer.dendrogram().show()
+
+## lsa analysis
+corpus = Corpus(documents)
+corpus.reduce(3)
+
+for document in corpus:
+	print
+	print document.name
+	for concept, w1 in corpus.lsa.vectors[document.id].items():
+		for word, w2 in corpus.lsa.concepts[concept].items():
+			if w1 !=0 and w2 !=0:
+				print (word, w1*w2)
