@@ -58,7 +58,7 @@ def displayAnalysis(c, keywords, categories):
 	print "Summarization of Category results"
 	print "<table>"
 	print "<tr> 	<td>Primary Category</td> <td>Secondary Category</td> <td>Emotional Category</td></tr>"
-	print "<tr> 	<td>%d</td> <td>%d</td> <td>%s</td>		</tr>" %(categories.primary, categories.secondary, categories.emotions)
+	print "<tr> 	<td>%f</td> <td>%f</td> <td>%f</td>		</tr>" %(categories.primary, categories.secondary, categories.emotions)
 	print "</table>"
 
 	print "##### Categories in Details"
@@ -67,17 +67,18 @@ def displayAnalysis(c, keywords, categories):
 
 	for item in categories:
 		if (item.type == 'emotions' and item.count > 8):
-			print item.name
-			print "\n- Total no of words in this category: %d" %(item.count)
+			print "###### %s \n" %(item.name)
+			print "- Total no of words in this category: %d" %(item.count)
 			print "- Type of category (i.e. Primary/Secondary/Emotions): %s" %(item.type)
-			print "- Set of Words in this category: \n\t\t - %s\n" %(set(item.words))
+			print "- Set of Words in this category:"
+			print "\n<pre> %s </pre>" %set(item.words)
 
 
 def main():
 	path = '/Users/Shreyas/Documents/_Berkeley/sem2/i290DigitalHumanities/Project/ThemeDetection/corpus/'
 
 	ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt', 'AN-5.txt', 'AN-6.txt', 'AN-7.txt', 'AN-8.txt', 'AN-9.txt', 'AN-10.txt', 'AN-11.txt', 'AN-12.txt', 'AN-13.txt', 'AN-14.txt', 'AN-15.txt', 'AN-16.txt', 'AN-17.txt', 'AN-18.txt', 'AN-19.txt', 'AN-20.txt', 'AN-21.txt', 'AN-22.txt', 'AN-23.txt', 'AN-24.txt', 'AN-25.txt', 'AN-26.txt', 'AN-27.txt']
-	ANfiles = ['AN-1.txt', 'AN-2.txt']
+	# ANfiles = ['AN-1.txt', 'AN-2.txt']
 
 	dirListing = os.listdir(path)
 
