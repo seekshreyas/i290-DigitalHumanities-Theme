@@ -15,6 +15,7 @@ import en
 
 
 corpusText = []
+color = 'rgbcmyk'
 
 def processText(corpus):
 	# r = the raw string on file read
@@ -24,58 +25,59 @@ def processText(corpus):
 	meta.append(additionalFilters)
 
 	count = 1
+	print "Arabian Nights Text Analysis"
+	print "=============================\n"
+
+
 	for doc in corpus:
 		keywordSummary = en.content.keywords(doc, top=10, nouns=True, singularize=True, filters=additionalFilters)
 		docCategories = en.content.categorise(doc)
-		count +=1
+		
 
 		displayAnalysis(count, keywordSummary, docCategories)
+		count +=1
+	
 
 		
 
-	
+
+
+
+
 def displayAnalysis(c, keywords, categories):
 	print "\n\n\n\n"
-	print "AN-", c, " Analsis:"
-	print "=========================="
-	print "\n"
+	print "## AN-", c, " Analsis:\n"
 
-	print "KEYWORDS:"
-	print "********************"
+	print "#### KEYWORDS:\n\t"
+
 	print keywords
-	print "--------------------"
-	print "\n"
 
-	print "CATEGORIES OF WORDS:"
-	print "************************"
+
+	print "\n#### CATEGORIES OF WORDS:\n"
 
 	print "Summarization of Category results"
-	print "Primary categories: %s" %(categories.primary)
-	print "Secondary categories: %s" %(categories.secondary)
-	print "Emotional categories: %s" %(categories.emotions)
-	print "-------"
-	print "\n"
+	print "<table>"
+	print "<tr> 	<td>Primary Category</td> <td>Secondary Category</td> <td>Emotional Category</td></tr>"
+	print "<tr> 	<td>%d</td> <td>%d</td> <td>%s</td>		</tr>" %(categories.primary, categories.secondary, categories.emotions)
+	print "</table>"
 
-	print "Categories in Details"
-
+	print "##### Categories in Details"
 
 	selectedRIDCategories = ['need', 'sensation', 'restraint', 'anxiety', 'glory', 'positive affect', 'sadness', 'expressive behavior', 'affection', 'aggression']
 
 	for item in categories:
 		if (item.type == 'emotions' and item.count > 8):
-			print "Category Names: %s" %(item.name)
-			print "total no of words in this category: %d" %(item.count)
-			print "Set of Words in this category: %s" %(set(item.words))
-			print "Type of category (i.e. Primary/Secondary/Emotions): %s" %(item.type)
-			print "--------------------\n"
-
+			print item.name
+			print "\n- Total no of words in this category: %d" %(item.count)
+			print "- Type of category (i.e. Primary/Secondary/Emotions): %s" %(item.type)
+			print "- Set of Words in this category: \n\t\t - %s\n" %(set(item.words))
 
 
 def main():
 	path = '/Users/Shreyas/Documents/_Berkeley/sem2/i290DigitalHumanities/Project/ThemeDetection/corpus/'
 
 	ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt', 'AN-5.txt', 'AN-6.txt', 'AN-7.txt', 'AN-8.txt', 'AN-9.txt', 'AN-10.txt', 'AN-11.txt', 'AN-12.txt', 'AN-13.txt', 'AN-14.txt', 'AN-15.txt', 'AN-16.txt', 'AN-17.txt', 'AN-18.txt', 'AN-19.txt', 'AN-20.txt', 'AN-21.txt', 'AN-22.txt', 'AN-23.txt', 'AN-24.txt', 'AN-25.txt', 'AN-26.txt', 'AN-27.txt']
-	# ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt']
+	ANfiles = ['AN-1.txt', 'AN-2.txt']
 
 	dirListing = os.listdir(path)
 
