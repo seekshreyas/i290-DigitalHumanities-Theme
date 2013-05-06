@@ -19,11 +19,13 @@ corpusText = []
 def processText(corpus):
 	# r = the raw string on file read
 
-	meta = ['power', 'faith', 'fear', 'anger', 'revenge']
+	meta = stopwords.words('english')
+	additionalFilters = ['prince', 'princess', 'sultan', 'sultana', 'genius']
+	meta.append(additionalFilters)
 
 	count = 1
 	for doc in corpus:
-		keywordSummary = en.content.keywords(doc, top=10, nouns=True, singularize=False, filters=meta)
+		keywordSummary = en.content.keywords(doc, top=10, nouns=True, singularize=True, filters=additionalFilters)
 		docCategories = en.content.categorise(doc)
 		count +=1
 
@@ -56,8 +58,11 @@ def displayAnalysis(c, keywords, categories):
 
 	print "Categories in Details"
 
+
+	selectedRIDCategories = ['need', 'sensation', 'restraint', 'anxiety', 'glory', 'positive affect', 'sadness', 'expressive behavior', 'affection', 'aggression']
+
 	for item in categories:
-		if (item.type is not 'secondary'):
+		if (item.type == 'emotions' and item.count > 8):
 			print "Category Names: %s" %(item.name)
 			print "total no of words in this category: %d" %(item.count)
 			print "Set of Words in this category: %s" %(set(item.words))
@@ -69,8 +74,8 @@ def displayAnalysis(c, keywords, categories):
 def main():
 	path = '/Users/Shreyas/Documents/_Berkeley/sem2/i290DigitalHumanities/Project/ThemeDetection/corpus/'
 
-	# ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt', 'AN-5.txt', 'AN-6.txt', 'AN-7.txt', 'AN-8.txt', 'AN-9.txt', 'AN-10.txt', 'AN-11.txt', 'AN-12.txt', 'AN-13.txt', 'AN-14.txt', 'AN-15.txt', 'AN-16.txt', 'AN-17.txt', 'AN-18.txt', 'AN-19.txt', 'AN-20.txt', 'AN-21.txt', 'AN-22.txt', 'AN-23.txt', 'AN-24.txt', 'AN-25.txt', 'AN-26.txt', 'AN-27.txt']
-	ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt']
+	ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt', 'AN-5.txt', 'AN-6.txt', 'AN-7.txt', 'AN-8.txt', 'AN-9.txt', 'AN-10.txt', 'AN-11.txt', 'AN-12.txt', 'AN-13.txt', 'AN-14.txt', 'AN-15.txt', 'AN-16.txt', 'AN-17.txt', 'AN-18.txt', 'AN-19.txt', 'AN-20.txt', 'AN-21.txt', 'AN-22.txt', 'AN-23.txt', 'AN-24.txt', 'AN-25.txt', 'AN-26.txt', 'AN-27.txt']
+	# ANfiles = ['AN-1.txt', 'AN-2.txt', 'AN-3.txt', 'AN-4.txt']
 
 	dirListing = os.listdir(path)
 
