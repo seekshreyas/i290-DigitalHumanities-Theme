@@ -6,7 +6,7 @@ Arabian Nights Text Analysis
 
 
 
-## AN- 1  Analsis:
+## AN- 1  Analysis:
 
 #### KEYWORDS:
 	
@@ -48,12 +48,33 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['sadly', 'sorrow', 'unhappy', 'sad', 'grief', 'despair', 'repent', 'weeping', 'lamentations']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 5
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['cries', 'arts', 'exclaimed', 'cried']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['delight', 'celebrate', 'happiness']) </pre>
+###### aggression 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['cut', 'deceived']) </pre>
 
 
 
 
 
-## AN- 2  Analsis:
+## AN- 2  Analysis:
 
 #### KEYWORDS:
 	
@@ -88,12 +109,40 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['wept', 'groan', 'sad', 'grief', 'alas', 'despair', 'weep']) </pre>
+###### affection 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['mercy', 'like', 'pitifully', 'farewell', 'embracing', 'dear', 'friends']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['anxiety', 'fright', 'tremblingly', 'dangerous', 'frightful', 'afraid', 'terrified']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['yell', 'cried']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy', 'delighted']) </pre>
 
 
 
 
 
-## AN- 3  Analsis:
+## AN- 3  Analysis:
 
 #### KEYWORDS:
 	
@@ -114,12 +163,47 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['hated', 'break', 'kill', 'stable', 'scoffed', 'dislike', 'killed']) </pre>
+###### affection 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['pity', 'kind', 'like', 'marry', 'married', 'favorite', 'dear']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joyfully', 'joy', 'excite', 'smiled', 'smile', 'celebrate']) </pre>
+###### glory 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['extraordinary', 'great', 'genius']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['exclaimed', 'cry', 'cried']) </pre>
+###### sadness 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['weep', 'grieved']) </pre>
 
 
 
 
 
-## AN- 4  Analsis:
+## AN- 4  Analysis:
 
 #### KEYWORDS:
 	
@@ -140,12 +224,47 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['genius', 'great', 'prince']) </pre>
+###### affection 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['love', 'marry', 'married', 'favour', 'favorable', 'friends']) </pre>
+###### aggression 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['wrath', 'angry', 'kill', 'jealous', 'reproach', 'condemned']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['trouble']) </pre>
+###### sadness 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['sorrowful']) </pre>
 
 
 
 
 
-## AN- 5  Analsis:
+## AN- 5  Analysis:
 
 #### KEYWORDS:
 	
@@ -173,12 +292,47 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['angry', 'killing', 'broken', 'kill', 'annoyed', 'knife', 'rebelled']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 5
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['trouble', 'afraid', 'trembled', 'fright']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 5
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['yellow', 'cried']) </pre>
+###### sadness 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['alas', 'despair', 'disappointed', 'unhappy']) </pre>
+###### affection 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['like', 'favour']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['delighted']) </pre>
 
 
 
 
 
-## AN- 6  Analsis:
+## AN- 6  Analysis:
 
 #### KEYWORDS:
 	
@@ -199,12 +353,47 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['great', 'palace', 'majesty', 'wonderful', 'rich', 'extremely', 'prince']) </pre>
+###### aggression 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['strike', 'jealous', 'struck', 'hit', 'traitor']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['play', 'playing', 'played']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy', 'excited']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['dangerous']) </pre>
+###### affection 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['favours']) </pre>
 
 
 
 
 
-## AN- 7  Analsis:
+## AN- 7  Analysis:
 
 #### KEYWORDS:
 	
@@ -218,12 +407,40 @@ Summarization of Category results
 <tr> 	<td>0.292929</td> <td>0.575758</td> <td>0.131313</td>		</tr>
 </table>
 ##### Categories in Details
+###### glory 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['genius', 'great', 'majesty']) </pre>
+###### aggression 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['disturbed', 'revenge', 'killed']) </pre>
+###### sadness 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['suffered', 'sorry', 'repent']) </pre>
+###### affection 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['loved', 'kinds']) </pre>
 
 
 
 
 
-## AN- 8  Analsis:
+## AN- 8  Analysis:
 
 #### KEYWORDS:
 	
@@ -272,12 +489,26 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['anxiety', 'distress', 'fright', 'frighten', 'afraid', 'horrified', 'terrified', 'frightened']) </pre>
+###### sadness 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['painted', 'unhappy', 'sad', 'alas', 'repent', 'plaintive']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['relieved', 'rejoice', 'delighted', 'laughed']) </pre>
 
 
 
 
 
-## AN- 9  Analsis:
+## AN- 9  Analysis:
 
 #### KEYWORDS:
 	
@@ -312,12 +543,40 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['pity', 'loved', 'like', 'favourite', 'married', 'loves', 'dear', 'affection']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy', 'rejoice', 'glad', 'happy']) </pre>
+###### sadness 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['wept', 'unhappy', 'sad', 'miserable', 'grieving', 'groans']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['cries', 'cry', 'cried']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['troubles']) </pre>
 
 
 
 
 
-## AN- 10  Analsis:
+## AN- 10  Analysis:
 
 #### KEYWORDS:
 	
@@ -366,12 +625,26 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['throne', 'golden', 'gold', 'palace', 'principal', 'magnificent', 'dazzled', 'greatly', 'wondering', 'admiring', 'adventure']) </pre>
+###### sadness 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['repented', 'sorrowfully', 'despair', 'sorry', 'suffer', 'groans', 'suffered']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['troubling', 'fear', 'anxiously']) </pre>
 
 
 
 
 
-## AN- 11  Analsis:
+## AN- 11  Analysis:
 
 #### KEYWORDS:
 	
@@ -406,12 +679,40 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['mercy', 'kind', 'like', 'intimate', 'marry', 'gratefully', 'cherished', 'farewell', 'embracing', 'dear', 'kindness', 'friends']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['dreadful', 'anxiety', 'avoided', 'horrified', 'fear', 'alarmed', 'trouble']) </pre>
+###### sadness 
+
+- Total no of words in this category: 5
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['grief', 'wept', 'sorrow', 'sad']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 4
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['exclaimed', 'cried', 'sight']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['satisfied', 'delighted', 'amused']) </pre>
 
 
 
 
 
-## AN- 12  Analsis:
+## AN- 12  Analysis:
 
 #### KEYWORDS:
 	
@@ -460,12 +761,26 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['loved', 'likeness', 'like', 'welcomed', 'likewise', 'welcome', 'patted', 'embraced', 'dearly', 'dear', 'friends', 'friend']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy', 'celebrated', 'delighted', 'cheers', 'laugh', 'mirth']) </pre>
+###### sadness 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['wept', 'mourned', 'pain', 'sad', 'grief', 'sobs']) </pre>
 
 
 
 
 
-## AN- 13  Analsis:
+## AN- 13  Analysis:
 
 #### KEYWORDS:
 	
@@ -533,7 +848,7 @@ Summarization of Category results
 
 
 
-## AN- 14  Analsis:
+## AN- 14  Analysis:
 
 #### KEYWORDS:
 	
@@ -561,13 +876,6 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['shoot', 'tore', 'cut', 'shot', 'beat', 'deprived', 'breaking', 'arrows', 'hurt', 'harmless', 'protest', 'disturbed', 'doubt', 'violently', 'arguing', 'murderer', 'struck', 'beating', 'stable', 'killed', 'knife']) </pre>
-###### anxiety 
-
-- Total no of words in this category: 17
-- Type of category (i.e. Primary/Secondary/Emotions): emotions
-- Set of Words in this category:
-
-<pre> set(['fearing', 'fearful', 'dreaded', 'fears', 'shrieked', 'terrific', 'fear', 'terror', 'trouble', 'alarmed', 'frightened', 'trembled']) </pre>
 ###### positive affect 
 
 - Total no of words in this category: 17
@@ -575,6 +883,13 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['joyfully', 'entertainment', 'joy', 'amuse', 'satisfied', 'amused', 'cheerful', 'laugh', 'gladly', 'smiling', 'enjoying', 'happiness', 'happy']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 17
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['fearing', 'fearful', 'dreaded', 'fears', 'shrieked', 'terrific', 'fear', 'terror', 'trouble', 'alarmed', 'frightened', 'trembled']) </pre>
 ###### affection 
 
 - Total no of words in this category: 16
@@ -601,7 +916,7 @@ Summarization of Category results
 
 
 
-## AN- 15  Analsis:
+## AN- 15  Analysis:
 
 #### KEYWORDS:
 	
@@ -669,7 +984,7 @@ Summarization of Category results
 
 
 
-## AN- 16  Analsis:
+## AN- 16  Analysis:
 
 #### KEYWORDS:
 	
@@ -704,12 +1019,40 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['kingdom', 'great', 'palace', 'rich', 'gold']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['dreadful', 'fearing', 'fright', 'terrified', 'terror', 'fear', 'frightened']) </pre>
+###### sadness 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['sorry', 'suffer', 'wailed']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy', 'delighted', 'amused']) </pre>
+###### affection 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['loved']) </pre>
 
 
 
 
 
-## AN- 17  Analsis:
+## AN- 17  Analysis:
 
 #### KEYWORDS:
 	
@@ -751,12 +1094,33 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['enjoy', 'joyfully', 'joy', 'amuse', 'delighted', 'entertain', 'merry', 'laughed', 'laughter']) </pre>
+###### sadness 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['wept', 'grief', 'lamentations', 'miserable', 'weep', 'lamented', 'wails']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['exclaimed', 'dancers', 'cried', 'sight']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['anxious', 'fearing', 'dreadful', 'tremblingly', 'trembling', 'terrific', 'terror']) </pre>
 
 
 
 
 
-## AN- 18  Analsis:
+## AN- 18  Analysis:
 
 #### KEYWORDS:
 	
@@ -798,12 +1162,33 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['sang', 'exclaimed', 'playing', 'cried', 'played']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['satisfy', 'humour', 'joke', 'amuse', 'laugh', 'smile', 'laughter']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['trouble']) </pre>
+###### sadness 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['paintings']) </pre>
 
 
 
 
 
-## AN- 19  Analsis:
+## AN- 19  Analysis:
 
 #### KEYWORDS:
 	
@@ -871,7 +1256,7 @@ Summarization of Category results
 
 
 
-## AN- 20  Analsis:
+## AN- 20  Analysis:
 
 #### KEYWORDS:
 	
@@ -927,12 +1312,19 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['wept', 'paintings', 'grief', 'alas', 'pains', 'lamentations', 'miserable', 'sorry']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['fearing', 'fright', 'fear', 'shrieks', 'avoided', 'trembled']) </pre>
 
 
 
 
 
-## AN- 21  Analsis:
+## AN- 21  Analysis:
 
 #### KEYWORDS:
 	
@@ -1000,7 +1392,7 @@ Summarization of Category results
 
 
 
-## AN- 22  Analsis:
+## AN- 22  Analysis:
 
 #### KEYWORDS:
 	
@@ -1021,12 +1413,47 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['throne', 'richly', 'wondering', 'adventures', 'palace']) </pre>
+###### aggression 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['seized', 'severe', 'doubt', 'strike', 'struck', 'whip']) </pre>
+###### affection 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['like', 'friend', 'devote']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['fearful', 'troubled']) </pre>
+###### sadness 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['melancholy', 'sorrow']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 1
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['amusement']) </pre>
 
 
 
 
 
-## AN- 23  Analsis:
+## AN- 23  Analysis:
 
 #### KEYWORDS:
 	
@@ -1061,12 +1488,40 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['lonely', 'sufferings', 'orphan', 'unhappy', 'repent', 'misery', 'miserable', 'suffered']) </pre>
+###### expressive behavior 
+
+- Total no of words in this category: 8
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['cried', 'sigh', 'cries', 'exclaimed', 'sight', 'exclaiming']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 7
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joking', 'joy', 'satisfied', 'smiling', 'excited', 'happiness', 'happy']) </pre>
+###### aggression 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['stubborn', 'opposite', 'fight', 'destroyed', 'accustomed', 'reproach']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 2
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['trouble', 'shrieked']) </pre>
 
 
 
 
 
-## AN- 24  Analsis:
+## AN- 24  Analysis:
 
 #### KEYWORDS:
 	
@@ -1101,13 +1556,6 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['throne', 'great', 'greater', 'gold', 'dazzled', 'famous', 'triumphantly', 'wondering', 'greatness', 'wonder']) </pre>
-###### anxiety 
-
-- Total no of words in this category: 12
-- Type of category (i.e. Primary/Secondary/Emotions): emotions
-- Set of Words in this category:
-
-<pre> set(['frightful', 'afraid', 'avoid', 'alarm', 'anxious', 'trouble', 'terror', 'frantic', 'fear', 'troubled', 'horror', 'uneasiness']) </pre>
 ###### positive affect 
 
 - Total no of words in this category: 12
@@ -1115,6 +1563,13 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['satisfy', 'enjoy', 'smiled', 'gay', 'joke', 'cheerful', 'merry', 'gladly', 'happiness', 'cheerfully']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 12
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['frightful', 'afraid', 'avoid', 'alarm', 'anxious', 'trouble', 'terror', 'frantic', 'fear', 'troubled', 'horror', 'uneasiness']) </pre>
 ###### expressive behavior 
 
 - Total no of words in this category: 10
@@ -1122,12 +1577,19 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['cry', 'art', 'cried', 'yelped', 'exclaimed', 'sight', 'roaring']) </pre>
+###### sadness 
+
+- Total no of words in this category: 5
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['sorry', 'suffer', 'pain', 'painful', 'sad']) </pre>
 
 
 
 
 
-## AN- 25  Analsis:
+## AN- 25  Analysis:
 
 #### KEYWORDS:
 	
@@ -1169,12 +1631,33 @@ Summarization of Category results
 - Set of Words in this category:
 
 <pre> set(['play', 'cried', 'game', 'exclaimed', 'sight', 'playing']) </pre>
+###### positive affect 
+
+- Total no of words in this category: 6
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['joy', 'satisfied', 'satisfactorily', 'glad', 'gladdened']) </pre>
+###### anxiety 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['horror', 'troubled', 'alarm']) </pre>
+###### sadness 
+
+- Total no of words in this category: 3
+- Type of category (i.e. Primary/Secondary/Emotions): emotions
+- Set of Words in this category:
+
+<pre> set(['suffer', 'plaintiff', 'despair']) </pre>
 
 
 
 
 
-## AN- 26  Analsis:
+## AN- 26  Analysis:
 
 #### KEYWORDS:
 	
@@ -1242,7 +1725,7 @@ Summarization of Category results
 
 
 
-## AN- 27  Analsis:
+## AN- 27  Analysis:
 
 #### KEYWORDS:
 	
