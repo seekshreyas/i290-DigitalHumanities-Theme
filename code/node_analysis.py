@@ -42,7 +42,7 @@ def processText(corpus):
 		words = []
 
 		for t in tokens:
-			if (t is not in meta):
+			if (t not in meta):
 				words.append(t)
 
 
@@ -59,12 +59,12 @@ def processText(corpus):
 		
 
 
-def displayAnalysis(c, keywords, categories, words):
+def displayAnalysis(c, keywords, categories, w):
 	print "\n\n\n\n"
 	print "## AN-", c, " Analysis:\n"
 
 	print "#### TOTAL WORDS:"
-	print words.length
+	print len(w)
 
 	print "#### KEYWORDS:\n\t"
 
@@ -97,6 +97,7 @@ def displayAnalysis(c, keywords, categories, words):
 			dataRow[itemNameKey[0]] = item.count
 			print "###### %s \n" %(item.name)
 			print "- Total no of words in this category: %d" %(item.count)
+			print "- Normalized Count: %f" %(item.count/len(w))
 			print "- Type of category: %s" %(item.type)
 			print "- Set of Words in this category:"
 			print "\n<pre> %s </pre>" %set(item.words)
