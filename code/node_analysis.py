@@ -34,11 +34,23 @@ def processText(corpus):
 
 
 	for doc in corpus:
+		#I didn't find an API in nodebox to show normalized word counts
+		#So I am going to use NLTK to do that, although, I agree it may be
+		#inefficient to use another library just for the wordcount.
+
+		tokens = nltk.word_tokenize(doc)
+		words = []
+
+		for t in tokens:
+			if (t is not in meta):
+				words.append(t)
+
+
 		keywordSummary = en.content.keywords(doc, top=10, nouns=True, singularize=True, filters=meta)
 		docCategories = en.content.categorise(doc)
 		
 
-		displayAnalysis(count, keywordSummary, docCategories)
+		displayAnalysis(count, keywordSummary, docCategories, words)
 		count +=1
 
 
@@ -47,9 +59,12 @@ def processText(corpus):
 		
 
 
-def displayAnalysis(c, keywords, categories):
+def displayAnalysis(c, keywords, categories, words):
 	print "\n\n\n\n"
 	print "## AN-", c, " Analysis:\n"
+
+	print "#### TOTAL WORDS:"
+	print words.length
 
 	print "#### KEYWORDS:\n\t"
 
@@ -87,31 +102,7 @@ def displayAnalysis(c, keywords, categories):
 			print "\n<pre> %s </pre>" %set(item.words)
 
 	data.append(dataRow)
-	# print "data:", data
 
-	# if(c == len(ANfiles)):
-		# renderTable()
-
-
-
-# def renderTable():
-# 	print '## Overall Summary\n'
-# 	print '%-16s' % ('Corpus Stats')
-
-# 	i = 0
-# 	print "<table>"
-# 	for row in data:
-# 		print len(row.keys())
-# 		print '<tr>'
-# 		if (i==0):
-# 			labels = row.keys()
-# 			print '<td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td>' % ('filename', 'primarycategory', 'secondarycategory', 'emotionalcategory', 'glory', 'affection', 'aggression', 'expressive behavior', 'positive effect', 'anxiety', 'sadness')
-
-# 		print '<td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td>' % (row['filename'], row['primarycategory'], row['secondarycategory'], row['emotionalcategory'], row['glory'], row['affection'], row['aggression'], row['expressive'], row['positive'], row['anxiety'], row['sadness'] )
-
-# 		print '</tr>'
-# 		i+=1
-# 	print "</table>"
 
 
 def main():
